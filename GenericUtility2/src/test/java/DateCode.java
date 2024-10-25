@@ -19,6 +19,8 @@ public class DateCode {
 		System.out.println("Actual date : " + sim.format(cal.getTime()));
 		cal.add(Calendar.DAY_OF_MONTH, -30);
 		System.out.println("30 Days before date : " + sim.format(cal.getTime()));
+		
+		
 	}
 
 }
